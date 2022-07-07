@@ -6,9 +6,11 @@ DAY 1:
 On the first day when I got acquainted with the project, I started to create the project plan. I immediately started with the description of the project together with its main objectives that follows :
 
    Project Descriptions
+   
 Skill-Matrix is a project where the main goal is to collect data from the survey. This survey will contain many questions for a large amount of users in different timestamps. The questions will be displayed in different types.
 
    Project Requirements  
+   
 -The project must meet the list of requirements to achieve success.
 -Improve the user experience.
 -Performing end user functionality analysis, current web review and information architecture design.
