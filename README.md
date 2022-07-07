@@ -1,6 +1,6 @@
 # finalproject
 
-
+###########################################################################################################################
 DAY 1:
 
 
@@ -37,7 +37,7 @@ After all the migration status was up and succesful i planted the dummy data on 
 Some of the commands ==> make migrate-status , make migrate-up steps=X . make migrate-down steps=X , make migrate-create name=XXXXX , make seed.
 
 
-
+#################################################################################################################################
 
 DAY 2:  
 
@@ -49,7 +49,7 @@ make migrate-down steps=x , make migrate-up step=x and make seed.
 
 Every table : users, board, survey, questins and asnswers was filled out with dummy data.I also had some issuees with the type of the variables that didn't had the default value determined.I make sure that every table had her own primary and foreign key to have relations between them and that i could track the tables on hasura and confirm the dummy data.
 
-
+#################################################################################################################################
 
 DAY 3:
 
@@ -60,7 +60,7 @@ Day 3 was really difficult for me because i couldn't create actions on hasura.I 
 The first error i dealt with was “status:500”.The database didnt have a connection.By the help of our seniour colleges I later fixed that error but still i got another error about webhook handler.As i searched a lot in stack overflow and different source i couldnt fix that.Even after our senior colleges help me fixing this error the connection with the database wasn't succesful.Together with my team i started looking for other solutions because me and my partners colud't create a succesful action on hasura.
 Another thing i should mention was the database.I did different changes to the tables of the database.Many variables required different data types as the project goes by.I fixed those and commit the changes.
 
-
+###################################################################################################################################
 
 DAY 4:
 
