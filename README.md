@@ -1,6 +1,8 @@
 # finalproject
 
 ###########################################################################################################################
+
+
 DAY 1:
 
 
@@ -39,6 +41,7 @@ Some of the commands ==> make migrate-status , make migrate-up steps=X . make mi
 
 #################################################################################################################################
 
+
 DAY 2:  
 
 
@@ -51,6 +54,7 @@ Every table : users, board, survey, questins and asnswers was filled out with du
 
 #################################################################################################################################
 
+
 DAY 3:
 
 
@@ -62,6 +66,7 @@ Another thing i should mention was the database.I did different changes to the t
 
 ###################################################################################################################################
 
+
 DAY 4:
 
 
@@ -72,5 +77,18 @@ I finally fetched data from the database by creating a simple query on questions
 
 I faced different errors with when fetching the data because when i checked the console data where succesfully fetched but were undefined.Another type of error happened when i forgot to toggle all the permisions on hasura.Later on as i searched on google i found out that you can save the permissions by : hasura metadata export.Another problem me and my colleges dealt with was writting 2 querys on one component.I finally fetched a list of questions to the frontend with get method.
 
+
+####################################################################################################################################
+
+
+DAY 5:
+
+On day 5 I was focsed more on fetching the data from the question table.Since there were errors in the database i went again and start working on it.
+The tables were filled with dummy data by generating the same data.This was a problem because as i disscused with my group we decided that our UI was gone be showing every question on different pages by clicking the next button.I helped my colleges writing the code and meanwhile i changed the seed file creating unique data. 
+
+Another error that took me a while to understand and opened me a lot of trobles was using 2 ReactQuerys on one component.At question.js file as i succesfully finished fetching data from the question table on day 4 with a question query , i tried to post(insert) data by creating a mutation on the same file.
+The problem it was that that the error log didnt show the correct way to solve it.My college was also working on it and he found a way so i focused back on the database tables.I did a lot of changes to the tables , changing the types of the columns and data seed after disscusing with my group.
+I succesfully changed the datas on the tables and created a view called surveys_questions that displayed data from 2 tables .
+But after i succesfully planted data the view table didnt showed any results even thought the survey table and the question table had rows.This is a problem I think i am gone solve it in the next days.
 
 
