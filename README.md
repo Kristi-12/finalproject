@@ -92,3 +92,19 @@ I succesfully changed the datas on the tables and created a view called surveys_
 But after i succesfully planted data the view table didnt showed any results even thought the survey table and the question table had rows.This is a problem I think i am gone solve it in the next days.
 
 
+
+DAY 6:
+
+
+On day 6 my main focus was creating a connection between backend and frontend especially between frontend and database.My idea was to create a Post mutation from hasura that takes the answers from user and save them to database through a graphql endpoint.Some days before i had an error trying to create actions in hasura for connecting with the backend part, but me and my team run through some errors and couldn't fix them so we abandoned that solution and came up with another solution.
+Before i creating a insert answer mutation today i had to run to my database and change some foreign key relations.After i succesfully changed the database i make sure everything was in order and created createAnswer mutation.This mutation was able to add a new row into the database as a user would give a new answer.
+After i succesfully run createAnswer mutation was time to apply that on my project.I studied some applications and found that the best way was install axios dependency.Went to my app-survey folder and install axios by command (npm install axios).After axios was installed i succesfully applied POST method to Question.js and was able to read user answers from frontend and save them to database.I also fixed the day before error which me and my college misunderstood.I thought that the surveys_questions view was gone store all the questions from all surveys but i was wrong.So that we found view was actually right.
+
+
+
+
+
+
+
+
+
