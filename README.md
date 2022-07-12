@@ -64,6 +64,7 @@ Day 3 was really difficult for me because i couldn't create actions on hasura.I 
 The first error i dealt with was “status:500”.The database didnt have a connection.By the help of our seniour colleges I later fixed that error but still i got another error about webhook handler.As i searched a lot in stack overflow and different source i couldnt fix that.Even after our senior colleges help me fixing this error the connection with the database wasn't succesful.Together with my team i started looking for other solutions because me and my partners colud't create a succesful action on hasura.
 Another thing i should mention was the database.I did different changes to the tables of the database.Many variables required different data types as the project goes by.I fixed those and commit the changes.
 
+
 ###################################################################################################################################
 
 
@@ -78,7 +79,9 @@ I finally fetched data from the database by creating a simple query on questions
 I faced different errors with when fetching the data because when i checked the console data where succesfully fetched but were undefined.Another type of error happened when i forgot to toggle all the permisions on hasura.Later on as i searched on google i found out that you can save the permissions by : hasura metadata export.Another problem me and my colleges dealt with was writting 2 querys on one component.I finally fetched a list of questions to the frontend with get method.
 
 
+
 ####################################################################################################################################
+
 
 
 DAY 5:
@@ -93,10 +96,17 @@ But after i succesfully planted data the view table didnt showed any results eve
 
 
 
+############################################################################################################################
+
+
 DAY 6:
 
 On holiday i worked with backend part and frontend part also. I researched a lot on the database.The front end part had a lot of work with question types.So finally me and my team decided that we had to work with only four types of questions (Rating , Radio Button , Boolean and Button).
 
+
+
+
+#########################################################################################################################
 
 
 DAY 7:
@@ -108,6 +118,7 @@ After i succesfully run createAnswer mutation was time to apply that on my proje
 
 
 
+#########################################################################################################################
 
 
 
