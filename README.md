@@ -122,6 +122,10 @@ After i succesfully run createAnswer mutation was time to apply that on my proje
 
 
 
+DAY 8:
+
+
+On day 8 my main focus for me and my team was login in with a unique token for every user that is gone take the survey.In the begging was hard because i didnt know what road to follow to achive that.Me and my team tried a lot of different ways but later we found out that we had to use a Use State hook.It was very hard for us because datas were undefined and we couldnt save them to the database.After the help of our senior college we managed to make login with token only for every user that is gone take the survey.My last objective for today was creating a Result view.This result view was gone store questions and answers from the survey and will show the score of the questions also. By the help of a simple query later i am gone use this view to make the last page of the survey(The result page).I managed to create the view correctly and as a user completes a survey the answers the results were stored in the result table.
 
 
 
